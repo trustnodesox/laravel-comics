@@ -1,0 +1,18 @@
+header{
+  width: 100%;
+  nav{
+    ul{
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      li{
+        a{
+          display: inline;
+          color: yellow;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
