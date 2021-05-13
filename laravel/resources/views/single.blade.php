@@ -9,7 +9,7 @@
     </div>
   </div>
   </div>
-  <div class="container">
+  <div class="single-container">
 
     <div class="flex-center">
       <div class="comic-info">
@@ -22,9 +22,12 @@
           <th>check availability</th>
         </thead>
           <tr>
-            <td>{{$comic['description']}}</td>
+            <td colspan="3">{{$comic['description']}}</td>
           </tr>
       </table>
+    </div>
+    <div class="adv">
+      <img src="/images/adv.jpg" alt="">
     </div>
     </div>
   </div>

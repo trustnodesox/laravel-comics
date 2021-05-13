@@ -23,13 +23,21 @@
   .card{
     width: calc(100%/6 - 20px);
     margin: 20px 10px;
+    text-decoration: none;
+    color: white;
+    h5{
+      margin-top: 20px;
+
+    }
   }
 }
 
-.thumb{
-  height: 200px;
-  overflow: hidden;
-}
+  .thumb{
+    img{
+      max-height: 200px;
+      width: 100%;
+    }
+  }
 }
 
 .single-main{
@@ -42,4 +50,33 @@
     height: 100px;
     background-color: #0282F9;
   }
+}
+
+.comic-info{
+  h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+  table{
+    border-spacing: 0;
+    thead{
+      background-color: green;
+      font-size: 20px;
+      color: white;
+      th{
+        height: 50px;
+      }
+    }
+    tr{
+      td{
+        font-size: 18px;
+        line-height: 1.5;
+      }
+    }
+  }
+}
+
+.adv{
+  margin-top: 100px;
+  padding: 30px;
 }
