@@ -1,2 +1,2 @@
 @include('layouts.layout')
-@include('header')
+@include('partials.header')
