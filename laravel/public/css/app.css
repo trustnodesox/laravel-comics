@@ -9,6 +9,19 @@
   margin: 0 auto;
 }
 
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  border: 0;
+  width: 200px;
+  height: 40px;
+  background-color: #0282F9;
+}
+
 li {
   text-transform: uppercase;
 }
@@ -63,5 +76,51 @@ header .jumbotron {
   width: 100%;
   height: 400px;
   background-image: url("/images/jumbotron.jpg");
+}
+
+.main {
+  width: 100%;
+  background-color: #303030;
+}
+
+.main .series {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 40px;
+  background-color: #0282F9;
+  position: relative;
+  top: -20px;
+}
+
+.main .card-wrapper {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main .card-wrapper .card {
+  width: calc(100%/6 - 20px);
+  margin: 20px 10px;
+}
+
+.main .thumb {
+  height: 200px;
+  overflow: hidden;
+}
+
+.single-main .view-gallery {
+  position: relative;
+  top: -250px;
+}
+
+.single-main .single-blue-stripe {
+  width: 100%;
+  height: 100px;
+  background-color: #0282F9;
 }
 

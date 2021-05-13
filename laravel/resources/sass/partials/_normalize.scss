@@ -8,3 +8,16 @@
   width: 80%;
   margin: 0 auto;
 }
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  border: 0;
+  width: 200px;
+  height: 40px;
+  background-color: #0282F9;
+}
