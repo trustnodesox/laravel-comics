@@ -23,3 +23,4 @@
     <button class="btn" type="button" name="button">load more</button>
   </div>
 </div>
+@include('partials.footer')
